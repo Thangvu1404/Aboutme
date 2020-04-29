@@ -10,42 +10,42 @@ var listMusic = [
     {
         song: "1000X",
         artist: "AMEE, Lou Hoàng, Rhymastic",
-        url: "ListMusic/1000x.mp3"
+        url: "1000x.mp3"
     },
     {
         song: "Đường Một Chiều",
         artist: "Huỳnh Tú, Magazine",
-        url: "ListMusic/DuongMotChieu.mp3"
+        url: "DuongMotChieu.mp3"
     },
     {
         song: "Hai Phút Hơn",
         artist: "Pháo, CM1X",
-        url: "ListMusic/HaiphutHon.mp3"
+        url: "HaiphutHon.mp3"
     },
     {
         song: "Yêu Em Dại Khờ",
         artist: "Lou Hoàng",
-        url: "ListMusic/YeuEmDaiKho.mp3"
+        url: "YeuEmDaiKho.mp3"
     },
     {
         song: "Hành Lang Cũ",
         artist: "Long Nón Lá, Masew",
-        url: "ListMusic/HanhLangCu.mp3"
+        url: "HanhLangCu.mp3"
     },
     {
         song: "Khóc Cùng Em",
         artist: "Mr.Siro",
-        url: "ListMusic/KhocCungEm.mp3"
+        url: "KhocCungEm.mp3"
     },
     {
         song: "Tình Sầu Thiên Thu Muôn Lối",
         artist: "Doãn Hiếu",
-        url: "ListMusic/TinhSauThienThuMuonLoi.mp3"
+        url: "TinhSauThienThuMuonLoi.mp3"
     },
     {
         song: "Yêu Từ Đâu Mà Ra",
         artist: "Lil Zpoet",
-        url: "ListMusic/YeuTuDauMaRa.mp3"
+        url: "YeuTuDauMaRa.mp3"
     },  
 ];
 listMusic.sort(function () {
