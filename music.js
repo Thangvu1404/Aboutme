@@ -20,7 +20,7 @@ var listMusic = [
     {
         song: "Hai Phút Hơn",
         artist: "Pháo, CM1X",
-        url: "HaiphutHon.mp3"
+        url: "HaiPhutHon.mp3"
     },
     {
         song: "Yêu Em Dại Khờ",
