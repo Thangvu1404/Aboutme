@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="music.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <title>Music</title>
+</head>
+
+<body>
+  <div id="loader">
+    <span></span>
+    <div id="miniplayer-container">
+      <div id="miniplayer-controls">
+        <button id="btn-previous" onclick="previousMusic()"><i class='fas fa-step-backward'></i></button>
+        <button id="btn-pause" onclick="pauseMusic()"><i class='far fa-pause-circle'></i></button>
+        <button id="btn-play" onclick="playMusic()"><i class='far fa-play-circle'></i></button>
+        <button id="btn-next" onclick="nextMusic()"><i class='fas fa-step-forward'></i></button>
+      </div>
+      <div id="player-info">
+        <div id="avt">
+          <div id="dot"></div>
+        </div>
+        <div id="song-info-wrapper">
+          <p id="song-info"></p>
+          <p id="artists"></p>
+        </div>
+        <div id="play-time-number">
+          <p id="playing-time">--:-- / --:--</p>
+
+        </div>
+        <div id="duration-bar">
+          <div id="playing-bar"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="music.js"></script>
+</body>
+
+</html>
